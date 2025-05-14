@@ -51,7 +51,7 @@
     <nav id="nav" x-data="{ open: false }" role="navigation" class="w-full">
       <div class="container mx-auto flex flex-wrap items-center md:flex-no-wrap">
         <div class="mr-4 md:mr-8">
-          <a href="index.html" class="text-2xl font-signika font-bold">MIDNIGHT PHOTOS</a>
+          <a href="../index.html" class="text-2xl font-signika font-bold">MIDNIGHT PHOTOS</a>
         </div>
         <div class="ml-auto md:hidden flex items-center justify-start">
           <button onclick="menuToggle()" @click="open = !open"
@@ -112,15 +112,15 @@
 
         <!-- Image wrapper with gradient fade -->
         <div class="relative mb-4 rounded-xl overflow-hidden">
-          <img src="assets/featured/photo1.jpg" alt="Portfolio Cover" class="w-full h-48 object-cover" />
+          <img src="photos/HistoricGP2024/MP-HistoricGPZandvoort-23.jpg" alt="Zandvoort Historic Grand Prix 2024 old F1 car" class="w-full h-48 object-cover" />
           <!-- Gradient fade at bottom -->
           <div
             class="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white dark:from-neutral-900 to-transparent">
           </div>
         </div>
 
-        <h2 class="text-2xl font-bold font-signika mb-2">Portfolio</h2>
-        <p class="text-gray-600 dark:text-gray-300">Explore all my curated albums and favorite photo collections.</p>
+        <h2 class="text-2xl font-bold font-signika mb-2">Zandvoort Historic Grand Prix 2024</h2>
+        <p class="text-gray-600 dark:text-gray-300">The Historic Grand Prix of Zandvoort is held in June. Letting historic cars take a chance to race again.</p>
       </a>
     </section>
   </main>
@@ -153,9 +153,13 @@
           </div>
         </div>
       </div>
-      <p class="mt-8 text-xs text-gray-600 dark:text-gray-300 text-center">
-        © 2023 Developed and Designed by João Franco
-      </p>
+      <div class="mt-8 text-center text-xs text-gray-600 dark:text-gray-300">
+        <p>© 2023 Developed and Designed by João Franco</p>
+        <div class="mt-2 flex justify-center gap-4">
+          <a href="terms.html" class="underline hover:text-gray-800 dark:hover:text-white">Terms of Service</a>
+          <a href="policy.html" class="underline hover:text-gray-800 dark:hover:text-white">Privacy Policy</a>
+        </div>
+      </div>
     </div>
   </footer>
   <!-- Script for the LightBox -->
